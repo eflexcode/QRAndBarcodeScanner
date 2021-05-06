@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds">
+
+        <attr name="blue" format="color"/>
+        <attr name="white" format="color"/>
+        <attr name="green" format="color"/>
+        <attr name="black" format="color"/>
+        <attr name="backgroundcolor" format="color" />
+        <attr name="buttoncolor" format="color"/>
+        <attr name="titlecolor" format="color"/>
+        <attr name="cardbackground" format="color"/>
+        <attr name="cardtextcolor" format="color"/>
+
+    </declare-styleable>
+</resources>

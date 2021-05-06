@@ -1,0 +1,80 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.QRAndBarcodeScanner" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/blue</item>
+        <item name="blue">@color/blue</item>
+        <item name="green">@color/green</item>
+        <item name="backgroundcolor">@color/white</item>
+        <item name="white">@color/white</item>
+        <item name="buttoncolor">@color/blue</item>
+        <item name="titlecolor">@color/black</item>
+
+        <!-- Secondary brand color. -->
+
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+
+        <item name="cardbackground">@color/white</item>
+        <item name="cardtextcolor">@color/buttoncolor</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="Theme.QRAndBarcodeScannerDark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/buttoncolor</item>
+        <item name="colorPrimaryVariant">@color/buttoncolor</item>
+        <item name="colorOnPrimary">@color/buttoncolor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/buttoncolor</item>
+        <item name="colorSecondaryVariant">@color/buttoncolor</item>
+        <item name="titlecolor">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOnSurface">@color/blue</item>
+        <item name="colorError">@color/red</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="blue">@color/blue</item>
+        <item name="green">@color/green</item>
+        <item name="backgroundcolor">@color/darkblue</item>
+        <item name="white">@color/white</item>
+        <item name="buttoncolor">@color/buttoncolor</item>
+        <item name="cardbackground">@color/buttoncolor</item>
+        <item name="cardtextcolor">@color/white</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">false</item>
+    </style>
+
+    <style name="Theme.QRAndBarcodeScannerTranslucent" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/blue</item>
+        <item name="blue">@color/blue</item>
+        <item name="green">@color/green</item>
+        <item name="backgroundcolor">@color/white</item>
+        <item name="white">@color/white</item>
+        <item name="buttoncolor">@color/blue</item>
+        <item name="titlecolor">@color/black</item>
+
+        <!-- Secondary brand color. -->
+
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="cardbackground">@color/white</item>
+        <item name="cardtextcolor">@color/buttoncolor</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+</resources>
