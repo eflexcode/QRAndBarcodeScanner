@@ -113,27 +113,18 @@
 
         </androidx.cardview.widget.CardView>
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/ad"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
-            android:backgroundTint="@color/darkblue"
-            app:layout_constraintBottom_toTopOf="@id/scan">
-
-            <TextView
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ad"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="ad"
-                android:textColor="@color/white"
-                android:textSize="25sp" />
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="ca-app-pub-9552597639357298/3563423370"
+                app:layout_constraintBottom_toTopOf="@id/scan" />
 
-        </androidx.cardview.widget.CardView>
 
-        <Button
+            <Button
             android:id="@+id/scan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

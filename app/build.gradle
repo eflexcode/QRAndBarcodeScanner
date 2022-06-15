@@ -10,7 +10,7 @@ android {
         applicationId "com.larrex.qrandbarcodescanner"
         minSdkVersion 21
         targetSdkVersion 29
-        versionCode 1
+        versionCode 2
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -52,4 +52,7 @@ dependencies {
     implementation 'com.budiyev.android:code-scanner:2.1.0'
 
 //    implementation 'me.dm7.:zxing:1.9.13'
+
+   // ad
+    implementation 'com.google.android.gms:play-services-ads:20.1.0'
 }
